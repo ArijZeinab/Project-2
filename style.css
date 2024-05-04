@@ -1,0 +1,215 @@
+#index{
+  background-image: url('bg/bg1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hellotext {
+  text-align: center;
+  color:  #fdc6e3;
+  font-size: 120px;
+  text-shadow: 2px 2px 4px black; 
+  font-family: "Frijole", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 30px;
+}
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 999;
+}
+
+li a {
+  display: block;
+  color: rgb(254, 0, 182);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color:#FFC0CB ;
+}
+
+li a:hover:not(.active) {
+  background-color:#f78d9f ;
+  color: whitesmoke;
+}
+
+.active {
+  background-color: #f78d9f;
+  color: whitesmoke;
+}
+
+#about{
+  background-image: url('bg/bg4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+.comp {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.textabout {
+  font-family: "Frijole", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background: rgba(255, 255, 255, 0.505);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  flex-grow: 1; 
+  align-content: center;
+
+  color:   rgb(211, 40, 163);
+  font-size: 25px;
+
+}
+
+
+#abtme {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#hobby{
+
+  font-weight: 400;
+  font-style: normal;
+  background-image: url('bg/bg3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+
+.hobbies img {
+  filter: saturate(30%);
+  width:5%;
+  border: 2px solid whitesmoke;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: all ease 1.5s;
+  cursor: pointer; 
+  opacity: 0.6;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.hobbies img:hover{
+  filter: saturate(100%);
+  width: 60%;
+  height: 100%;
+  opacity: 1;
+}
+#texthob {
+  text-align: center;
+  color:  rgb(211, 40, 163);
+  font-size: 34px;
+  text-shadow: 2px 2px 4px black; 
+  font-family: "Frijole", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+#social {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url('bg/bg2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+
+}
+
+#textme {
+    text-align: center;
+    color:  #fdc6e3;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px black; 
+    font-family: "Frijole", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    font-size: 75px;
+    border-radius: 40px;
+  }
+
+.fa { 
+    padding: 30px;;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;  
+    vertical-align: center;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    margin: 10px 10px; 
+    font-size: 50px;
+    opacity: 0.6;
+  }
+.fa:hover {
+      opacity: 1;
+  }
+
+.fa-facebook {  
+
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-whatsapp {
+    background: #a4c639;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #de4597;
+    color: white;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
